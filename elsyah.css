@@ -1,0 +1,61 @@
+			p{
+				line-height:25px;
+				text-align:justify;
+			}
+			h1{
+				font-family:script mt bold;
+				color:white
+			}
+				
+			a{
+				text-decoration:underline;
+				color:white;
+			}
+			ul,li{
+				list-style-type:none;
+			}
+			header{
+				width:1330px;
+				height:14%;
+				background-color:#000033;
+				padding:10px;
+				color:#002F21;
+			}
+			nav{
+				width:1280px;
+				background-color:#006699;
+				padding-left:65px;
+				padding-right:5px;
+				padding-top:5px;
+				height:4%;
+			}
+			.menucolumn {
+				word-spacing:3px;
+				line-height:25px;
+				float: left;
+				width: 150px;
+				padding: 10px;
+				height: 65%;
+			}
+			.contentcolumn{
+				float: left;
+				width: 900px;
+				padding: 10px 15px 10px 15px;
+				height: 65%;
+			}
+			.extracolumn{
+				float: left;
+				width: 229.5px;
+				padding: 10px;
+				height: 65%;
+				margin-right:-20px;
+			}
+			.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			footer{
+				height:9%;
+				background-color:black;
+			}
